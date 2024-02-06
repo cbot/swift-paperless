@@ -9,7 +9,7 @@ import Foundation
 import os
 
 extension UserDefaults {
-    static let group = UserDefaults(suiteName: "group.com.paulgessinger.swift-paperless")!
+    static let group = UserDefaults(suiteName: "group.io.cbot.swift-paperless")!
 }
 
 // https://www.swiftbysundell.com/articles/property-wrappers-in-swift/

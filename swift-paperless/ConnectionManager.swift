@@ -52,10 +52,10 @@ class ConnectionManager: ObservableObject {
 
     private(set) var apiHost: String? {
         get {
-            UserDefaults(suiteName: "group.com.paulgessinger.swift-paperless")!.string(forKey: "ApiHost")
+            UserDefaults(suiteName: "group.io.cbot.swift-paperless")!.string(forKey: "ApiHost")
         }
         set {
-            UserDefaults(suiteName: "group.com.paulgessinger.swift-paperless")!.set(newValue, forKey: "ApiHost")
+            UserDefaults(suiteName: "group.io.cbot.swift-paperless")!.set(newValue, forKey: "ApiHost")
         }
     }
 
